@@ -1,0 +1,268 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+p {
+	width: 680px;
+	margin: 0 auto 30px auto;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+.navigation {
+	margin: 15px 25px;
+	vertical-align: middle;
+}
+
+.navigation a {
+	float: left;
+	padding: 5px 0;
+}
+
+.navigation img {
+	top: 10px;
+	position: relative;
+	width: 160px;
+	height: 37px;
+}
+
+.navigation ul {
+	float: right;
+	list-style-type: none;
+}
+
+.navigation ul>li {
+	line-height: 25px;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.navigation .button {
+	background-color:#19B533;
+	border:1px solid #09921F;
+	border-bottom-width:3px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+	font-size: 1em;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*按钮的CSS样式*/
+.button {
+	background-color: #0066cc;
+	border: 1px solid #105296;
+	border-bottom-width: 3px;
+	padding: 20px 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+}
+
+.botton:hover {
+	background-color: #1a7de6;
+}
+
+.navigation .button {
+	padding: 5px 10px;
+}
+
+.intro a>img {
+	width: 968px;
+	height: 461px;
+}
+
+.intro p {
+	width: 680px;
+	margin: 0 auto 30px auto;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.sign-up {
+	margin-bottom: 40px;
+}
+
+.sign-up .button {
+	border: 1px solid #105296;
+	border-bottom-width: 3px;
+	background-color: #0066cc;
+	padding: 20px 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block;
+}
+
+.sign-up .button:hover {
+	background-color: #1a7de6;
+}
+
+.sign-up p {
+	margin-top: 20px;
+	font-size: 1em;
+}
+
+/*chat common*/
+.chat {
+	width: 968px;
+	margin: 0 auto;
+}
+
+.chat img {
+	width: 100px;
+	height: 100px;
+	margin-right: 15px;
+	margin-top: 25px;
+}
+
+.chat p {
+	background-color: #F5F5F5;
+	width: 500px;
+	border: 20px solid #F5F5F5;
+	border-radius: 4px;
+	margin: 0 0 30px 0;
+	text-align: left;
+}
+
+/*chat img left*/
+.chat-img-left {
+	width: 680px;
+	margin: 0 auto;
+	display: table;
+}
+
+.chat-img-left p {
+	font-size: 1.5em;
+	float: left;
+	position: relative;
+}
+
+.chat-img-left p::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 20px solid #F5F5F5;
+	border-color: transparent #F5F5F5 transparent transparent;
+	position: absolute;
+	left: -60px;
+	top: 35%;
+}
+
+.chat-img-left img {
+	float: left;
+	margin-right: 20px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*chat img right*/
+.chat-img-right {
+	width: 680px;
+	margin: 0 auto;
+	display: table;
+}
+
+.chat-img-right p {
+	font-size: 1.5em;
+	float: right;
+	color: #06C;
+	position: relative;
+}
+
+.chat-img-right p::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 20px solid #F5F5F5;
+	border-color: transparent transparent transparent #F5F5F5;
+	position: absolute;
+	right: -60px;
+	top: 35%;
+}
+
+.chat-img-right img {
+	float: right;
+	margin-left: 20px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*section style*/
+section {
+	width: 968px;
+	margin: 0 auto;
+}
+
+section p {
+	text-align: left;
+}
+
+section h2 {
+	width: 680px;
+	margin: 0 auto 10px auto;
+	text-align: left;
+}
+
+/*links style*/
+.links ul {
+	text-align: left;
+	margin-left: 120px;
+	font-size: 1.2em;
+}
+
+.links ul li {
+	margin: 0 auto 20px auto;
+}
+
+/*footer style*/
+footer {
+	text-align: center;
+}
+
+footer p {
+	width: 100%;
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+footer ul {
+	margin-bottom: 50px;
+}
+
+footer li {
+	margin: 0 auto 10px auto;
+}
+
+footer img {
+	margin-bottom: 30px;
+}
+
+footer img {
+	width: 160px;
+	height: 37px;
+}
+
