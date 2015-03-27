@@ -1,12 +1,12 @@
 body {
 	width: 100%;
 	margin: 0 auto;
-	text-align: center;
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 2em;
+	text-align: center;
 }
 
 p {
@@ -16,54 +16,63 @@ p {
 	line-height: 1.5em;
 }
 
-section {
-	margin-bottom: 30px;
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
-.navigation {
+/*section style*/
+section {
+	width: 968px;
+	margin: 0 auto 30px auto;
+}
+
+section p {
+	text-align: left;
+}
+
+section h2 {
+	width: 680px;
+	margin: 0 auto 10px auto;
+	text-align: left;
+}
+/*nav style*/
+nav {
 	margin: 15px 25px;
 	vertical-align: middle;
 }
 
-.navigation a {
+nav a {
 	float: left;
 	padding: 5px 0;
 }
 
-.navigation img {
+nav img {
 	top: 10px;
 	position: relative;
 	width: 160px;
 	height: 37px;
 }
 
-.navigation ul {
+nav ul {
 	float: right;
 	list-style-type: none;
 }
 
-.navigation ul>li {
+nav ul>li {
 	line-height: 25px;
 	display: inline-block;
 	margin: 0 4px;
 }
 
-.navigation .button {
+nav .button {
 	background-color:#19B533;
 	border:1px solid #09921F;
-	border-bottom-width:3px;
-	font-weight: bold;
-	text-decoration: none;
-	color: white;
-	border-radius: 3px;
 	font-size: 1em;
+	padding: 5px 10px;
 }
 
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}
 
 /*按钮的CSS样式*/
 .button {
@@ -82,10 +91,7 @@ section {
 	background-color: #1a7de6;
 }
 
-.navigation .button {
-	padding: 5px 10px;
-}
-
+/*intro class style*/
 .intro a>img {
 	width: 968px;
 	height: 461px;
@@ -98,17 +104,13 @@ section {
 	text-align: center;
 }
 
+/*sign-up class style*/
 .sign-up {
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 .sign-up .button {
-	border: 1px solid #105296;
-	border-bottom-width: 3px;
-	background-color: #0066cc;
-	padding: 20px 10px;
-	font-weight: bold;
-	font-size: 1.5em;
 	display: inline-block;
 }
 
@@ -147,7 +149,6 @@ section {
 .chat-img-left {
 	width: 680px;
 	margin: 0 auto;
-	display: table;
 }
 
 .chat-img-left p {
@@ -170,15 +171,12 @@ section {
 .chat-img-left img {
 	float: left;
 	margin-right: 20px;
-	display: table-cell;
-	vertical-align: middle;
 }
 
 /*chat img right*/
 .chat-img-right {
 	width: 680px;
 	margin: 0 auto;
-	display: table;
 }
 
 .chat-img-right p {
@@ -202,24 +200,13 @@ section {
 .chat-img-right img {
 	float: right;
 	margin-left: 20px;
-	display: table-cell;
-	vertical-align: middle;
 }
 
-/*section style*/
-section {
-	width: 968px;
+/*screens class*/
+.screens img{
+	display: block;
+	width: 1000px;
 	margin: 0 auto;
-}
-
-section p {
-	text-align: left;
-}
-
-section h2 {
-	width: 680px;
-	margin: 0 auto 10px auto;
-	text-align: left;
 }
 
 /*links style*/
@@ -247,9 +234,6 @@ footer p {
 footer ul {
 	list-style-type: none;
 	padding: 0;
-}
-
-footer ul {
 	margin-bottom: 50px;
 }
 
@@ -258,11 +242,8 @@ footer li {
 }
 
 footer img {
-	margin-bottom: 30px;
-}
-
-footer img {
 	width: 160px;
 	height: 37px;
+	margin-bottom: 30px;
 }
 
