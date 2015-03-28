@@ -1,0 +1,240 @@
+/* default style*/
+body {
+    font-family: "Microsoft YaHei",SimSun,"Arial Narrow",HELVETICA,sans-serif;
+    line-height: 1.4;
+}
+
+.section-default-padding {
+    padding: 50px 0;
+}
+
+.centered {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hover-bg:hover {
+    background-color: #2DB7B9;
+}
+
+/* header style */
+header {
+    height: 80px;
+    background-color: #2DB7B9;
+    border: 2px solid transparent;
+    border-bottom-color: #29A8AA;
+}
+
+header h1 {
+    font-size: 40px;
+    color: white; /*颜色不要放到header中，放到直接作用元素中*/
+    font-weight: bold;
+    text-align: center;
+}
+
+header h1 span {
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* intro-video section style */
+/* 如何垂直居中? a:这里不是居中，是margin调整的 */
+#intro-video {
+    background-color: #2DB7B9;
+}
+
+#intro-statement {
+    margin-top: 128px;
+    float: right;
+    width: 460px;
+    color: white;
+}
+
+#intro-statement p:first-child {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#intro-statement p:last-child {
+    font-size: 20px;
+    text-align: right;
+}
+
+/* course-model section style */
+#course-model h1 {
+    font-size: 36px;
+    color: #939598;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#course-model pre {
+    width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+#course-model span {
+    color: #EBA649;
+}
+
+.course-model-feature {
+    float: left;
+    width: 400px;
+    margin: 50px 40px;
+}
+
+.course-model-feature {
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+
+/* intro-teacher section style */
+#intro-teacher {
+    background-color: #F1F2F2;
+}
+
+#intro-teacher h1 {
+    font-size: 36px;
+    color: #939598;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.teacher-div {
+    width: 200px;
+    margin: 0 20px 40px 20px;
+    float: left;
+    background-color: white;
+}
+
+.teacher-div img {
+    border-radius: 100%;    /* 将方形的图片显示成圆形 */
+    margin: 50px 0 30px 50px;
+}
+
+.teacher-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teacher-field {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+/* course-list section style */
+#course-list {
+    background-color: #2DB7B9;
+}
+
+.course-time-div {
+    margin-bottom: 30px;
+}
+
+.course-time-div h1 {
+    color: #E6A649;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.course-time-div p {
+    color: white;
+    font-size: 1.5em;
+    line-height: 2;
+    font-weight: bold;
+    border-bottom: 1px solid #95BEBF;
+}
+
+.course-time-div p span {
+    font-style: italic;
+    float: right;
+}
+
+.course-on-going {
+    background-color: #E6A649;
+}
+
+.course-on-going:hover {
+    background-color: #000000;
+}
+
+
+/* abount section style*/
+#about {
+    background-color: #ffffff;
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #939598;
+    margin-bottom: 30px;
+}
+
+.about-us {
+    width: 450px;
+    float: left;
+}
+
+.about-more {
+    width: 450px;
+    float: right;
+}
+
+.about-more a {
+    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about-more a * {
+    vertical-align: middle;
+}
+
+#contact-ways {
+    width: 200px;
+    float: right;
+}
+
+/* contact section style */
+#contact {
+    background-color: #F1F2F2;
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 28px;
+    margin :0px 0px 30px;
+}
+
+#contact div.qq {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#contact div.qq span {
+    line-height: 1.5;
+}
+
+/* icp style */
+.site-icp {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.site-icp a {
+    text-decoration: none;
+}
+
+.site-icp a:first-child {
+    color: red;
+}
+
+.site-icp a:last-child {
+    color: blue;
+}
