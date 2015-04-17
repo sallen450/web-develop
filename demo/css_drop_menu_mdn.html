@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Drop Menu -- MDN</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<style>
+	.clearfix:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+	/* drop menu style */
+	
+	div#navWrapper ul {
+		float: left;
+		position: relative;
+	}
+	/*导航显示总菜单*/
+	
+	div#navWrapper ul li {
+		float: left;
+		position: relative;
+		width: 150px;
+		/*style*/
+		
+		background-color: #FFFBBF;
+	}
+	/*整个下拉列表*/
+	
+	div#navWrapper ul ul {
+		position: absolute;
+		display: none;
+		/*style*/
+		
+		top: 38px;
+		left: 0;
+	}
+	/*下拉列表中的每一项*/
+	
+	div#navWrapper ul ul li {
+		float: none;
+		/*style*/
+		
+		margin-bottom: 2px;
+		box-shadow: 2px 2px 6px 1px black;
+		border-radius: 3px;
+		font-size: 18px;
+		padding: 2px 0;
+	}
+	/*右侧弹出的整个三级及三级以后的子菜单*/
+	
+	div#navWrapper ul ul ul {
+		position: absolute;
+		top: 0;
+		left: 152px;
+	}
+	/*hover显示子菜单*/
+	
+	div#navWrapper li:hover>ul {
+		display: block;
+	}
+	/**********************/
+	
+	body {
+		padding: 15px;
+	}
+	
+	h1 {
+		font-size: 35px;
+		font-weight: bold;
+		margin: 10px 0;
+	}
+	
+	p {
+		margin: 8px 0;
+		font-size: 20px;
+	}
+	
+	a,
+	a:hover {
+		text-decoration: none;
+	}
+	
+	div#navWrapper > ul > li {
+		padding: 8px 0;
+		border-right: 1px solid black;
+		font-style: italic;
+	}
+	
+	div#navWrapper > ul > li > a {
+		font-size: 20px;
+		font-weight: bold;
+		margin: 0 5px;
+	}
+	
+	div#navWrapper ul ul li a {
+		margin: 0 3px;
+	}
+	</style>
+</head>
+
+<body>
+	<h1>CSS Drop Menu -- MDN</h1>
+	<div id="navWrapper" class="clearfix">
+		<ul>
+			<li>
+				<a href="#">Menu</a>
+				<ul>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Menu</a>
+				<ul>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li>
+						<a href="#">SubMenu-&gt;</a>
+						<ul>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li>
+								<a href="#">SubMenu-&gt;</a>
+								<ul>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Menu</a>
+				<ul>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li>
+						<a href="#">SubMenu-&gt;</a>
+						<ul>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li>
+								<a href="#">SubMenu-&gt;</a>
+								<ul>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Menu</a>
+				<ul>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li><a href="#">SubMenu</a></li>
+					<li>
+						<a href="#">SubMenu-&gt;</a>
+						<ul>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li>
+								<a href="#">SubMenu-&gt;</a>
+								<ul>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Item</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="content">
+		<p>Page Content</p>
+	</div>
+</body>
+
+</html>

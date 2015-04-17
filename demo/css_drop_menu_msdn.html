@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<title>Example 5 - CSS Dropdown Menu</title>
+	<style>
+	a,
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul#navWrapper {
+		margin-left: -39px;
+		float: left;
+	}
+
+	ul#navWrapper li {
+		margin-right: 0.75em;
+		padding: 0.1em 0.25em;
+		background-color: #DDD;
+		box-shadow: 3px 3px 6px 1px #333;
+		border-radius: 4px;
+		float: left;
+		list-style: none;
+	}
+
+	ul#navWrapper li li {
+		float: none;
+		margin-top: 3px;
+		margin-left: -44px;
+	}
+
+	ul#navWrapper li li:first-child {
+		margin-top: 4px;
+	}
+
+	ul#navWrapper ul {
+		display: none;
+		position: absolute;
+	}
+
+	ul#navWrapper li:hover ul {
+		display: block;
+	}
+
+	ul#navWrapper a {
+		font-weight: bold;
+	}
+
+	ul#navWrapper li:hover {
+		background-color: #8C8D61;
+	}
+
+	div#banner {
+		border: 1px black solid;
+		border-radius: 4px;
+		clear: both;
+		height: 4em;
+		background-color: rgb(85, 126, 185);
+
+		background-image: -webkit-radial-gradient(100% 0%, circle cover, rgb(104, 24, 136) 0%, rgb(85, 126, 185) 100%);
+		background-image: radial-gradient(circle at 100% 0%, rgb(104, 24, 136) 0%, rgb(85, 126, 185) 100%);
+	}
+
+	</style>
+</head>
+
+<body>
+	<ul id="navWrapper">
+
+		<li>
+
+			<a href="pageA.html">Menu A</a>
+			<ul>
+				<li><a href="pageA1.html">Menu A, Item 1</a></li>
+				<li><a href="pageA2.html">Menu A, Item 2</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="pageB.html">Menu B</a>
+			<ul>
+				<li><a href="pageB1.html">Menu B, Item 1</a></li>
+				<li><a href="pageB2.html">Menu B, Item 2</a></li>
+				<li><a href="pageB3.html">Menu B, Item 3</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div id="banner"></div>
+	<div id="content">
+		<h1>Page Title Here</h1>
+		<p>Primary page content here.</p>
+	</div>
+</body>
+
+</html>
