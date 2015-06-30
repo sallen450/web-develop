@@ -1,0 +1,209 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.phone-container {
+    width: 750px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 导航栏 */
+.nav-category {
+    font-size: 0;
+    height: 70px;
+    width: 100%;
+    background: url(../images/1.png) no-repeat;
+    background-size: 100%;
+}
+
+.nav-category a {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 黒体 sans-serif;
+    width: 50%;
+    font-size: 28px;
+    padding: 21px 0;
+    color: #535353;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+}
+
+#nav-game {
+    text-align: left;
+    padding-left: 121px;
+}
+
+#nav-app {
+    text-align: right;
+    padding-right: 121px;
+}
+
+.nav-category .selected {
+    color: #f19149;
+}
+
+/* 我的最爱 好有爱玩 导航*/
+.nav-fav {
+    font-size: 0;
+    margin-top: 17px;
+}
+
+.nav-fav a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 62px;
+    font-family: 黑体 sans-serif;
+    height: 62px;
+    width: 303px;
+    background-size: 303px 62px;
+}
+
+#my-fav {
+    margin-left: 72px;
+    background: url(../images/3.png) no-repeat;
+}
+
+#friend-fav {
+    background: url(../images/4.png) no-repeat;
+}
+
+/* 单个游戏 */
+.item {
+    font-size: 0;
+    height: 164px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 0;
+
+}
+
+.item > div {
+    float: left;
+}
+
+.item-index {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 27px;
+    margin-top: 52px;
+    font-family: 黑体 sans-serif;
+    color: #666666;
+}
+
+.item-logo {
+    margin-left: 27px;
+    background: url(../images/6.png) no-repeat;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+}
+
+.item-detail {
+    margin-left: 21px;
+}
+
+.item-name {
+    margin-top: 10px;
+
+}
+
+.item-name span {
+    display: inline-block;
+    font-size: 27px;
+    font-family: 黑体 sans-serif;
+    color: #000000;
+    width: 350px;
+    max-height: 54px;
+}
+
+.item-category {
+    margin-top: 23px;
+}
+
+.item-category-name {
+    font-size: 24px;
+    font-family: 黑体 sans-serif;
+    color: #666666;
+}
+
+.item-friend-num {
+    font-size: 20px;
+    font-family: 黑体 sans-serif;
+    color: #666666;
+}
+
+.item-score {
+    margin-top: 18px;
+}
+
+.download-num {
+    font-size: 20px;
+    font-family: 黑体 sans-serif;
+    color: #666666;
+}
+
+div.item-download {
+    float: right;
+    margin-right: 32px;
+    margin-top: 32px;
+}
+
+.download {
+    display: inline-block;
+    background: url(../images/5.png) no-repeat;
+    background-size: 100%;
+    width: 94px;
+    height: 54px;
+    color: #ffaa44;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 54px;
+    font-size: 28px;
+}
+
+.game-container > img {
+    position: relative;
+    left: 27px;
+}
+
+.press {
+    background: url(../images/按下.png) no-repeat;
+    color: #ffffff;
+}
+
+/* 图标 */
+#item1 {
+    background: url(../images/6.png) no-repeat;
+}
+
+#item2 {
+    background: url(../images/7.png) no-repeat;
+}
+
+#item3 {
+    background: url(../images/8.png) no-repeat;
+}
+
+#item4 {
+    background: url(../images/9.png) no-repeat;
+}
+
+#item5 {
+    background: url(../images/10.png) no-repeat;
+}
+
+#item6 {
+    background: url(../images/11.png) no-repeat;
+}
